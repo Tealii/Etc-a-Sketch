@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Etch-A-Sketch!</title>
+<!--CSS--------------------------------------------->
+    <link href="assets\etch.css" type="text/css" rel="stylesheet">
+<!--CSS--------------------------------------------->
+</head>
+<body>
+    <div id = "btnGRP1TOP">
+        <input id='x' name='x' type="number" value="16" min="2" max="64"><!--x-width--> 
+        <input id='y' name='y' type="number" value="16" min="2" max="64"><!--y-height-->
+        <button id='createNew'>Create New</button>
+
+    </div>
+
+    <div id = "container">
+        <div id = "canvas">
+
+        </div>
+    </div>
+
+    <div id = "btnGRP2BOTTOM">
+        <button id='black'>Black</button>
+        <button id='dshader'>Dark Shader</button>
+        <button id='lshader'>Light Shader</button>
+        <button id='random'>Random</button>
+        <button id='eraser'>Erase</button>
+        <button id='clear'>Clear</button>
+    </div>
+
+<!--JavaScript----------------------------------------------------------------------------->
+<script src="assets\etch.js"></script>
+    
+</body>
+</html>
